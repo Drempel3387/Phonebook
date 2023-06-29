@@ -16,7 +16,7 @@ int main(void)
 	PHONEBOOK Phonebook; 
 	initPhonebook(&Phonebook, &List); 
 
-	//load existing contacts from the file
+	//load existing contacts from  the file
 	FILE* fp;
 	if ((fp = fopen("File.txt", "r")) == NULL)
 	{
